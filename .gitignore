@@ -1,0 +1,32 @@
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+.next.cache/
+
+# env
+.env
+.env.*
+!.env.example
+.env.local
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/
+.idea/
+
+# lockfiles (원치 않으면 제외)
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
